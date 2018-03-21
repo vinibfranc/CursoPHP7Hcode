@@ -1,0 +1,16 @@
+{
+    "name": "vinibfranc/composer",
+    "description": "Aprendendo como usar o Composer",
+    "type": "project",
+    "license": "\u001b[A\u001b[B",
+    "authors": [
+        {
+            "name":"Vinicius Franceschi",
+            "email":"vinibfranc@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
