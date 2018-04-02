@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1155534-26ba-4e17-9b94-3a3171bd0b2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/users-create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/users-update.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/users.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Mailer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/forgot-reset-success.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/forgot-reset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/forgot-sent.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/forgot.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/views/email/forgot.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boletophp" afterPath="$PROJECT_DIR$/boletophp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/index.php" afterPath="$PROJECT_DIR$/_projeto_pratico/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/User.php" afterPath="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/header.8de702826c711cc9b6577b18a22c5d8b.rtpl.php" afterPath="$PROJECT_DIR$/_projeto_pratico/views-cache/header.8de702826c711cc9b6577b18a22c5d8b.rtpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/views/admin/header.html" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/login.8de702826c711cc9b6577b18a22c5d8b.rtpl.php" afterPath="$PROJECT_DIR$/_projeto_pratico/views-cache/login.8de702826c711cc9b6577b18a22c5d8b.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/views/admin/login.html" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/login.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,24 +38,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_projeto_pratico/index.php">
+      <file leaf-file-name="Mailer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Mailer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="38" />
-              <folding>
-                <element signature="e#61#76#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users-create.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/users-create.html">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_projeto_pratico/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="412">
+              <caret line="196" column="66" lean-forward="false" selection-start-line="196" selection-start-column="66" selection-end-line="196" selection-end-column="66" />
+              <folding>
+                <element signature="e#61#76#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,23 +64,20 @@
         <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="531">
-              <caret line="143" column="2" lean-forward="true" selection-start-line="143" selection-start-column="2" selection-end-line="143" selection-end-column="2" />
+              <caret line="219" column="40" lean-forward="false" selection-start-line="219" selection-start-column="40" selection-end-line="219" selection-end-column="40" />
               <folding>
                 <element signature="e#31#49#0#PHP" expanded="true" />
-                <marker date="1522152939384" expanded="true" signature="245:291" ph="SELECT * FRO... tb_users" />
-                <marker date="1522152939384" expanded="true" signature="1470:1555" ph="SELECT * FRO... tb_users" />
-                <marker date="1522152939384" expanded="true" signature="2200:2289" ph="SELECT * FRO... tb_users" />
+                <marker date="1522672965616" expanded="true" signature="326:372" ph="SELECT * FRO... tb_users" />
+                <marker date="1522672965616" expanded="true" signature="1551:1636" ph="SELECT * FRO... tb_users" />
+                <marker date="1522672965616" expanded="true" signature="2281:2370" ph="SELECT * FRO... tb_users" />
+                <marker date="1522672965616" expanded="true" signature="3366:3374" ph="SELECT * FRO... " />
+                <marker date="1522672965616" expanded="true" signature="3366:3474" ph="SELECT * FRO... tb_persons" />
+                <marker date="1522672965616" expanded="true" signature="3366:3481" ph="SELECT * FRO... tb_persons" />
+                <marker date="1522672965616" expanded="true" signature="4910:4923" ph="SELECT * FRO... " />
+                <marker date="1522672965616" expanded="true" signature="4910:5240" ph="SELECT * FRO... tb_userspasswordsrecoveries" />
+                <marker date="1522672965616" expanded="true" signature="5585:5668" ph="UPDATE tb_us... " />
+                <marker date="1522672965616" expanded="true" signature="5827:5893" ph="UPDATE tb_us... " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/users.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="46" column="139" lean-forward="true" selection-start-line="46" selection-start-column="139" selection-end-line="46" selection-end-column="139" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -115,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cookies/ex2.php" />
         <option value="$PROJECT_DIR$/try/ex1.php" />
         <option value="$PROJECT_DIR$/try/ex2.php" />
         <option value="$PROJECT_DIR$/error/ex1.php" />
@@ -159,13 +158,14 @@
         <option value="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/PageAdmin.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Page.php" />
-        <option value="$PROJECT_DIR$/_projeto_pratico/views/admin/login.html" />
         <option value="$PROJECT_DIR$/_projeto_pratico/views/admin/header.html" />
         <option value="$PROJECT_DIR$/_projeto_pratico/views/admin/users.html" />
-        <option value="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/User.php" />
-        <option value="$PROJECT_DIR$/_projeto_pratico/index.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/views/admin/users-update.html" />
         <option value="$PROJECT_DIR$/_projeto_pratico/views/admin/users-create.html" />
+        <option value="$PROJECT_DIR$/_projeto_pratico/views/admin/login.html" />
+        <option value="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Mailer.php" />
+        <option value="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/User.php" />
+        <option value="$PROJECT_DIR$/_projeto_pratico/index.php" />
       </list>
     </option>
   </component>
@@ -198,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -263,11 +264,15 @@
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="CursoHCodePHP7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoHCodePHP7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tpl" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -278,19 +283,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\views" />
+      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\views\admin" />
+      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\res\admin" />
+      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\res" />
+      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\vendor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\res\site" />
       <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\conf" />
       <recent name="C:\xampp\htdocs\CursoHCodePHP7\fgets" />
       <recent name="C:\xampp\htdocs\CursoHCodePHP7\dao\class" />
       <recent name="C:\xampp\htdocs\CursoHCodePHP7\poo\autoload\abstratas" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\views\admin" />
-      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\res\admin" />
-      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\res" />
-      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\vendor" />
-      <recent name="C:\xampp\htdocs\CursoHCodePHP7\gd" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,18 +353,20 @@
       <workItem from="1522025812821" duration="6276000" />
       <workItem from="1522065975706" duration="7510000" />
       <workItem from="1522149210001" duration="6543000" />
+      <workItem from="1522237427063" duration="51000" />
+      <workItem from="1522668446671" duration="4875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98071000" />
+    <option name="totallyTimeSpent" value="102997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="622" y="2" width="748" height="726" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29098362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29234973" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -370,6 +377,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -390,41 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/email/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/email/contents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tpl/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -535,7 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2907">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -686,14 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="93" column="7" lean-forward="false" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -702,21 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="62" column="2" lean-forward="false" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="258" column="79" lean-forward="false" selection-start-line="258" selection-start-column="79" selection-end-line="258" selection-end-column="79" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,24 +675,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="20" column="79" lean-forward="true" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_projeto_pratico/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="38" />
-          <folding>
-            <element signature="e#61#76#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/users-create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="1105">
           <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/users.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="46" column="139" lean-forward="false" selection-start-line="46" selection-start-column="139" selection-end-line="46" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/forgot-sent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/email/forgot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489584677449" expanded="false" signature="6265:6299" ph="..." />
+            <marker date="1489584677449" expanded="true" signature="6300:6464" ph="..." />
+            <marker date="1489584677449" expanded="true" signature="6453:6464" ph="..." />
+            <marker date="1489584677449" expanded="false" signature="8104:8149" ph="..." />
+            <marker date="1489584677449" expanded="true" signature="8195:8556" ph="..." />
+            <marker date="1489584677449" expanded="false" signature="8413:8482" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="69" column="26" lean-forward="false" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="99" column="1" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="99" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Mailer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/forgot-reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -749,21 +760,30 @@
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
-          <caret line="143" column="2" lean-forward="true" selection-start-line="143" selection-start-column="2" selection-end-line="143" selection-end-column="2" />
+          <caret line="219" column="40" lean-forward="false" selection-start-line="219" selection-start-column="40" selection-end-line="219" selection-end-column="40" />
           <folding>
             <element signature="e#31#49#0#PHP" expanded="true" />
-            <marker date="1522152939384" expanded="true" signature="245:291" ph="SELECT * FRO... tb_users" />
-            <marker date="1522152939384" expanded="true" signature="1470:1555" ph="SELECT * FRO... tb_users" />
-            <marker date="1522152939384" expanded="true" signature="2200:2289" ph="SELECT * FRO... tb_users" />
+            <marker date="1522672965616" expanded="true" signature="326:372" ph="SELECT * FRO... tb_users" />
+            <marker date="1522672965616" expanded="true" signature="1551:1636" ph="SELECT * FRO... tb_users" />
+            <marker date="1522672965616" expanded="true" signature="2281:2370" ph="SELECT * FRO... tb_users" />
+            <marker date="1522672965616" expanded="true" signature="3366:3374" ph="SELECT * FRO... " />
+            <marker date="1522672965616" expanded="true" signature="3366:3474" ph="SELECT * FRO... tb_persons" />
+            <marker date="1522672965616" expanded="true" signature="3366:3481" ph="SELECT * FRO... tb_persons" />
+            <marker date="1522672965616" expanded="true" signature="4910:4923" ph="SELECT * FRO... " />
+            <marker date="1522672965616" expanded="true" signature="4910:5240" ph="SELECT * FRO... tb_userspasswordsrecoveries" />
+            <marker date="1522672965616" expanded="true" signature="5585:5668" ph="UPDATE tb_us... " />
+            <marker date="1522672965616" expanded="true" signature="5827:5893" ph="UPDATE tb_us... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/users.html">
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="46" column="139" lean-forward="true" selection-start-line="46" selection-start-column="139" selection-end-line="46" selection-end-column="139" />
-          <folding />
+        <state relative-caret-position="412">
+          <caret line="196" column="66" lean-forward="false" selection-start-line="196" selection-start-column="66" selection-end-line="196" selection-end-column="66" />
+          <folding>
+            <element signature="e#61#76#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
