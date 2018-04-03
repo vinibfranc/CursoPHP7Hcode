@@ -2,12 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1155534-26ba-4e17-9b94-3a3171bd0b2b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/functions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/categories-products.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/res/site/img/products/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/res/site/img/products/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/res/site/img/products/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/res/site/img/products/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/res/site/img/products/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/res/site/img/products/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/categories-menu.e6d48eacc0f604cbf671ac434e8845a7.rtpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/categories.8de702826c711cc9b6577b18a22c5d8b.rtpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/footer.e6d48eacc0f604cbf671ac434e8845a7.rtpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/header.e6d48eacc0f604cbf671ac434e8845a7.rtpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/index.e6d48eacc0f604cbf671ac434e8845a7.rtpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/products-create.8de702826c711cc9b6577b18a22c5d8b.rtpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/products-update.8de702826c711cc9b6577b18a22c5d8b.rtpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/products.8de702826c711cc9b6577b18a22c5d8b.rtpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/users.8de702826c711cc9b6577b18a22c5d8b.rtpl.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/boletophp" afterPath="$PROJECT_DIR$/boletophp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/admin-categories.php" afterPath="$PROJECT_DIR$/_projeto_pratico/admin-categories.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/functions.php" afterPath="$PROJECT_DIR$/_projeto_pratico/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/index.php" afterPath="$PROJECT_DIR$/_projeto_pratico/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/site.php" afterPath="$PROJECT_DIR$/_projeto_pratico/site.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/Category.php" afterPath="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/Category.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/Product.php" afterPath="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/categories.b18aae8b7bfe6bd31c1fe7cf29d9e8b3.rtpl.php" afterPath="$PROJECT_DIR$/_projeto_pratico/views-cache/categories.b18aae8b7bfe6bd31c1fe7cf29d9e8b3.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/category.c5b813be90a10a19f97859c318d75589.rtpl.php" afterPath="$PROJECT_DIR$/_projeto_pratico/views-cache/category.c5b813be90a10a19f97859c318d75589.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/views-cache/index.c5b813be90a10a19f97859c318d75589.rtpl.php" afterPath="$PROJECT_DIR$/_projeto_pratico/views-cache/index.c5b813be90a10a19f97859c318d75589.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/views/admin/categories.html" afterPath="$PROJECT_DIR$/_projeto_pratico/views/admin/categories.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/views/category.html" afterPath="$PROJECT_DIR$/_projeto_pratico/views/category.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_projeto_pratico/views/index.html" afterPath="$PROJECT_DIR$/_projeto_pratico/views/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,21 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_projeto_pratico/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_projeto_pratico/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -56,8 +69,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_projeto_pratico/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="85">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -66,23 +79,56 @@
       <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#32#50#0#PHP" expanded="true" />
-                <marker date="1522761966772" expanded="true" signature="202:247" ph="SELECT * FRO... tb_products" />
-                <marker date="1522761966772" expanded="true" signature="1093:1147" ph="SELECT * FRO... tb_products" />
-                <marker date="1522761966772" expanded="true" signature="1289:1341" ph="DELETE FROM " />
+                <marker date="1503652530000" expanded="true" signature="202:247" ph="SELECT * FRO... tb_products" />
+                <marker date="1503652530000" expanded="true" signature="1056:1110" ph="SELECT * FRO... tb_products" />
+                <marker date="1503652530000" expanded="true" signature="1252:1304" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/index.html">
+      <file leaf-file-name="categories.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/categories.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="130" column="31" lean-forward="false" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+            <state relative-caret-position="196">
+              <caret line="40" column="134" lean-forward="false" selection-start-line="40" selection-start-column="134" selection-end-line="40" selection-end-column="134" />
+              <folding>
+                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#959#965#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sql.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/DB/Sql.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categories-products.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/categories-products.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin-categories.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_projeto_pratico/admin-categories.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2057">
+              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,8 +137,8 @@
       <file leaf-file-name="site.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_projeto_pratico/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="221">
+              <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
               <folding>
                 <element signature="e#8#24#0#PHP" expanded="true" />
               </folding>
@@ -103,8 +149,8 @@
       <file leaf-file-name="admin-products.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_projeto_pratico/admin-products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="95" column="3" lean-forward="true" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
+            <state relative-caret-position="1581">
+              <caret line="95" column="3" lean-forward="false" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -116,7 +162,7 @@
             <state relative-caret-position="901">
               <caret line="53" column="78" lean-forward="false" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
               <folding>
-                <marker date="1503503642000" expanded="true" signature="2366:2389" ph="..." />
+                <marker date="1503652530000" expanded="true" signature="2366:2389" ph="..." />
               </folding>
             </state>
           </provider>
@@ -153,8 +199,8 @@
       <find>Usuários</find>
       <find>URL</find>
       <find>image</find>
-      <find>Produtos</find>
       <find>$image</find>
+      <find>Produtos</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,7 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/email/contents.html" />
         <option value="$PROJECT_DIR$/email/index.php" />
         <option value="$PROJECT_DIR$/tpl/composer.json" />
         <option value="$PROJECT_DIR$/tpl/tpl/index.html" />
@@ -202,18 +247,19 @@
         <option value="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/Category.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/views/category.html" />
         <option value="$PROJECT_DIR$/_projeto_pratico/views/admin/header.html" />
-        <option value="$PROJECT_DIR$/_projeto_pratico/admin-categories.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/admin.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/admin-users.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/views/admin/products-create.html" />
         <option value="$PROJECT_DIR$/_projeto_pratico/admin-products.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/views/admin/products.html" />
-        <option value="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/DB/Sql.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/site.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/Product.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/index.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/functions.php" />
         <option value="$PROJECT_DIR$/_projeto_pratico/views/index.html" />
+        <option value="$PROJECT_DIR$/_projeto_pratico/admin-categories.php" />
+        <option value="$PROJECT_DIR$/_projeto_pratico/views/admin/categories.html" />
+        <option value="$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/DB/Sql.php" />
       </list>
     </option>
   </component>
@@ -224,7 +270,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="622" />
     <option name="y" value="2" />
     <option name="width" value="749" />
@@ -262,6 +308,46 @@
               <item name="CursoHCodePHP7" type="b2602c69:ProjectViewProjectNode" />
               <item name="CursoHCodePHP7" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="_projeto_pratico" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CursoHCodePHP7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoHCodePHP7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_projeto_pratico" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hcodebr" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CursoHCodePHP7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoHCodePHP7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_projeto_pratico" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hcodebr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php-classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CursoHCodePHP7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoHCodePHP7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_projeto_pratico" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hcodebr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php-classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CursoHCodePHP7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoHCodePHP7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_projeto_pratico" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="hcodebr" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php-classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DB" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="CursoHCodePHP7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CursoHCodePHP7" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="_projeto_pratico" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -291,19 +377,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\views\admin" />
+      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico" />
+      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\vendor\hcodebr\php-classes\src\Model" />
+      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\views" />
+      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\res\admin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\views\admin" />
       <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\res\site" />
       <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\conf" />
       <recent name="C:\xampp\htdocs\CursoHCodePHP7\fgets" />
       <recent name="C:\xampp\htdocs\CursoHCodePHP7\dao\class" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico" />
-      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\vendor\hcodebr\php-classes\src\Model" />
-      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\views" />
-      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\views\admin" />
-      <recent name="C:\xampp\htdocs\CursoHCodePHP7\_projeto_pratico\res\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,15 +450,16 @@
       <workItem from="1522237427063" duration="51000" />
       <workItem from="1522668446671" duration="9862000" />
       <workItem from="1522753895827" duration="4657000" />
-      <workItem from="1522759635930" duration="2540000" />
+      <workItem from="1522759635930" duration="4050000" />
+      <workItem from="1522764718286" duration="50000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115181000" />
+    <option name="totallyTimeSpent" value="116741000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="622" y="2" width="749" height="726" extended-state="0" />
+    <frame x="622" y="2" width="749" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33015007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -408,8 +495,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_projeto_pratico/conf/httpd-vhosts.conf" />
-    <entry file="file://$PROJECT_DIR$/_projeto_pratico/conf/hosts" />
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1632">
@@ -640,13 +725,13 @@
         <state relative-caret-position="417">
           <caret line="97" column="36" lean-forward="true" selection-start-line="86" selection-start-column="8" selection-end-line="97" selection-end-column="36" />
           <folding>
-            <marker date="1503503642000" expanded="true" signature="326:372" ph="SELECT * FRO... tb_users" />
-            <marker date="1503503642000" expanded="true" signature="1551:1636" ph="SELECT * FRO... tb_users" />
-            <marker date="1503503642000" expanded="true" signature="2281:2370" ph="SELECT * FRO... tb_users" />
-            <marker date="1503503642000" expanded="true" signature="3366:3374" ph="SELECT * FRO... " />
-            <marker date="1503503642000" expanded="true" signature="3366:3474" ph="SELECT * FRO... tb_persons" />
-            <marker date="1503503642000" expanded="true" signature="3366:3481" ph="SELECT * FRO... tb_persons" />
-            <marker date="1503503642000" expanded="true" signature="4910:4923" ph="SELECT * FRO... " />
+            <marker date="1503652530000" expanded="true" signature="326:372" ph="SELECT * FRO... tb_users" />
+            <marker date="1503652530000" expanded="true" signature="1551:1636" ph="SELECT * FRO... tb_users" />
+            <marker date="1503652530000" expanded="true" signature="2281:2370" ph="SELECT * FRO... tb_users" />
+            <marker date="1503652530000" expanded="true" signature="3366:3374" ph="SELECT * FRO... " />
+            <marker date="1503652530000" expanded="true" signature="3366:3474" ph="SELECT * FRO... tb_persons" />
+            <marker date="1503652530000" expanded="true" signature="3366:3481" ph="SELECT * FRO... tb_persons" />
+            <marker date="1503652530000" expanded="true" signature="4910:4923" ph="SELECT * FRO... " />
           </folding>
         </state>
       </provider>
@@ -655,15 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="260" column="87" lean-forward="false" selection-start-line="260" selection-start-column="87" selection-end-line="260" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_projeto_pratico/admin-categories.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,9 +756,9 @@
         <state relative-caret-position="191">
           <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
-            <marker date="1503503642000" expanded="true" signature="220:268" ph="SELECT * FRO... tb_categories" />
-            <marker date="1503503642000" expanded="true" signature="731:789" ph="SELECT * FRO... tb_categories" />
-            <marker date="1503503642000" expanded="true" signature="975:1031" ph="DELETE FROM " />
+            <marker date="1503652530000" expanded="true" signature="220:268" ph="SELECT * FRO... tb_categories" />
+            <marker date="1503652530000" expanded="true" signature="731:789" ph="SELECT * FRO... tb_categories" />
+            <marker date="1503652530000" expanded="true" signature="975:1031" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -701,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="47" column="19" lean-forward="false" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/admin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -721,7 +790,7 @@
         <state relative-caret-position="901">
           <caret line="53" column="78" lean-forward="false" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
           <folding>
-            <marker date="1503503642000" expanded="true" signature="2366:2389" ph="..." />
+            <marker date="1503652530000" expanded="true" signature="2366:2389" ph="..." />
           </folding>
         </state>
       </provider>
@@ -733,26 +802,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/DB/Sql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/admin-products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="95" column="3" lean-forward="true" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
+        <state relative-caret-position="1581">
+          <caret line="95" column="3" lean-forward="false" selection-start-line="95" selection-start-column="3" selection-end-line="95" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="221">
+          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding>
             <element signature="e#8#24#0#PHP" expanded="true" />
           </folding>
@@ -761,21 +822,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/Model/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#32#50#0#PHP" expanded="true" />
-            <marker date="1522761966772" expanded="true" signature="202:247" ph="SELECT * FRO... tb_products" />
-            <marker date="1522761966772" expanded="true" signature="1093:1147" ph="SELECT * FRO... tb_products" />
-            <marker date="1522761966772" expanded="true" signature="1289:1341" ph="DELETE FROM " />
+            <marker date="1503652530000" expanded="true" signature="202:247" ph="SELECT * FRO... tb_products" />
+            <marker date="1503652530000" expanded="true" signature="1056:1110" ph="SELECT * FRO... tb_products" />
+            <marker date="1503652530000" expanded="true" signature="1252:1304" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="85">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -783,7 +844,7 @@
     <entry file="file://$PROJECT_DIR$/_projeto_pratico/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -792,6 +853,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="130" column="31" lean-forward="false" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/categories-products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/admin-categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="47" column="34" lean-forward="false" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/views/admin/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="40" column="134" lean-forward="false" selection-start-line="40" selection-start-column="134" selection-end-line="40" selection-end-column="134" />
+          <folding>
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#959#965#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_projeto_pratico/vendor/hcodebr/php-classes/src/DB/Sql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
       </provider>

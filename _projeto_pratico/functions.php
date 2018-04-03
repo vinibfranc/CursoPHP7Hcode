@@ -1,5 +1,10 @@
-<?php
+<?php 
 
-function formatPrice($vlprice){
-    return number_format($vlprice, 2, ",", ".");
+function formatPrice(float $vlprice)
+{
+
+	return number_format($vlprice, 2, ",", ".");
+
 }
+
+ ?>
