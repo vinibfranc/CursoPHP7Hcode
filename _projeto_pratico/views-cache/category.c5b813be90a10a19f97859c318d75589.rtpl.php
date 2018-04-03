@@ -14,7 +14,7 @@
     <div class="zigzag-bottom"></div>
     <div class="container">
         <div class="row">
-            <?php $counter1=-1;  if( isset($produtos) && ( is_array($produtos) || $produtos instanceof Traversable ) && sizeof($produtos) ) foreach( $produtos as $key1 => $value1 ){ $counter1++; ?>
+            <?php $counter1=-1;  if( isset($products) && ( is_array($products) || $products instanceof Traversable ) && sizeof($products) ) foreach( $products as $key1 => $value1 ){ $counter1++; ?>
 
             <div class="col-md-3 col-sm-6">
                 <div class="single-shop-product">
@@ -31,23 +31,9 @@
                     </div>                       
                 </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="single-shop-product">
-                    <div class="product-upper">
-                        <img src="/res/site/img/product-1.jpg" alt="">
-                    </div>
-                    <h2><a href="">Apple new mac book 2015 March :P</a></h2>
-                    <div class="product-carousel-price">
-                        <ins>$899.00</ins> <del>$999.00</del>
-                    </div>  
-                    
-                    <div class="product-option-shop">
-                        <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
-                    </div>                       
-                </div>
-            </div>
             <?php } ?>
 
+            
         </div>
         
         <div class="row">

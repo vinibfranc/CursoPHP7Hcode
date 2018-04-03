@@ -1,88 +1,102 @@
-<?php
+<?php 
 
 namespace Hcode;
 
 use Rain\Tpl;
 
 class Mailer {
-    const USERNAME = "";
-    const PASSWORD = "";
-    const NAME_FROM = "Hcode Store";
+	
+	const USERNAME = "cursophp7hcode@gmail.com";
+	const PASSWORD = "<?password?>";
+	const NAME_FROM = "Hcode Store";
 
-    private $mail;
+	private $mail;
 
-    public function __construct($toAddress, $toName, $subject, $tplName, $data = array())
-    {
-        $config = array(
-            "tpl_dir" => $_SERVER["DOCUMENT_ROOT"] . "/views/email/",
-            "cache_dir" => $_SERVER["DOCUMENT_ROOT"] . "/views-cache/",
-            "debug" => false
-        );
+	public function __construct($toAddress, $toName, $subject, $tplName, $data = array())
+	{
 
-        Tpl::configure($config);
+		$config = array(
+			"tpl_dir"       => $_SERVER["DOCUMENT_ROOT"]."/views/email/",
+			"cache_dir"     => $_SERVER["DOCUMENT_ROOT"]."/views-cache/",
+			"debug"         => false
+	    );
 
-        $tpl = new Tpl;
+		Tpl::configure( $config );
 
-        foreach ($data as $key => $value){
-            $tpl->assign($key, $value);
-        }
+		$tpl = new Tpl;
 
-        $html = $tpl->draw($tplName, true);
+		foreach ($data as $key => $value) {
+			$tpl->assign($key, $value);
+		}
 
-        $this->mail = new \PHPMailer();
-        //Tell PHPMailer to use SMTP
-        $this->mail->isSMTP();
+		$html = $tpl->draw($tplName, true);
 
-//Enable SMTP debugging
-// 0 = off (for production use)
-// 1 = client messages
-// 2 = client and server messages
-        $this->mail->SMTPDebug = 0;
+		$this->mail = new \PHPMailer;
 
-//Set the hostname of the mail server
-        $this->mail->Host = 'smtp.gmail.com';
-// use
-// $mail->Host = gethostbyname('smtp.gmail.com');
-// if your network does not support SMTP over IPv6
+		//Tell PHPMailer to use SMTP
+		$this->mail->isSMTP();
 
-//Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-        $this->mail->Port = 587;
+		//Enable SMTP debugging
+		// 0 = off (for production use)
+		// 1 = client messages
+		// 2 = client and server messages
+		$this->mail->SMTPDebug = 0;
 
-//Set the encryption system to use - ssl (deprecated) or tls
-        $this->mail->SMTPSecure = 'tls';
+		//Ask for HTML-friendly debug output
+		$this->mail->Debugoutput = 'html';
 
-//Whether to use SMTP authentication
-        $this->mail->SMTPAuth = true;
+		//Set the hostname of the mail server
+		$this->mail->Host = 'smtp.gmail.com';
+		// use
+		// $this->mail->Host = gethostbyname('smtp.gmail.com');
+		// if your network does not support SMTP over IPv6
 
-//Username to use for SMTP authentication - use full email address for gmail
-        $this->mail->Username = Mailer::USERNAME;
+		//Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
+		$this->mail->Port = 587;
 
-//Password to use for SMTP authentication
-        $this->mail->Password = Mailer::PASSWORD;
+		//Set the encryption system to use - ssl (deprecated) or tls
+		$this->mail->SMTPSecure = 'tls';
 
-//Set who the message is to be sent from
-        $this->mail->setFrom($toAddress, $toName);
+		//Whether to use SMTP authentication
+		$this->mail->SMTPAuth = true;
 
-//Set an alternative reply-to address
-//$mail->addReplyTo('replyto@example.com', 'First Last');
+		//Username to use for SMTP authentication - use full email address for gmail
+		$this->mail->Username = Mailer::USERNAME;
 
-//Set who the message is to be sent to
-        $this->mail->addAddress('whoto@example.com', 'John Doe');
+		//Password to use for SMTP authentication
+		$this->mail->Password = Mailer::PASSWORD;
 
-//Set the subject line
-        $this->mail->Subject = 'Testando a classe PHPMailer com HCode';
+		//Set who the message is to be sent from
+		$this->mail->setFrom(Mailer::USERNAME, Mailer::NAME_FROM);
 
-//Read an HTML message body from an external file, convert referenced images to embedded,
-//convert HTML into a basic plain-text alternative body
-        $this->mail->msgHTML($html);
+		//Set an alternative reply-to address
+		//$this->mail->addReplyTo('replyto@example.com', 'First Last');
 
-//Replace the plain text body with one created manually
-        $this->mail->AltBody = 'This is a plain-text message body';
-    }
+		//Set who the message is to be sent to
+		$this->mail->addAddress($toAddress, $toName);
 
-    public function send(){
-        return $this->mail->send();
-    }
+		//Set the subject line
+		$this->mail->Subject = $subject;
+
+		//Read an HTML message body from an external file, convert referenced images to embedded,
+		//convert HTML into a basic plain-text alternative body
+		$this->mail->msgHTML($html);
+
+		//Replace the plain text body with one created manually
+		$this->mail->AltBody = 'This is a plain-text message body';
+
+		//Attach an image file
+		//$mail->addAttachment('images/phpmailer_mini.png');
+
+	}
+
+	public function send()
+	{
+
+		return $this->mail->send();
+
+	}
+
 }
 
-?>
+ ?>
